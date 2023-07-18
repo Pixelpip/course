@@ -13,7 +13,7 @@ public class SumOfTwoNumbers {
         System.out.println("Give the third number:");
         int c=Integer.valueOf(scanner.nextLine());
         int d=a+b+c;
-        System.out.println("The sum of the number is ",d);
+        System.out.println("The sum of the number is "+d);
 
     }
 }
