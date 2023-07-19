@@ -12,7 +12,7 @@ public class SumOfTwoNumbers {
         int b=Integer.valueOf(scanner.nextLine());
         
         int c=a+b;
-        System.out.println("The sum of the number is "+c);
+        System.out.println("The sum of the numbers is "+c);
 
     }
 }
