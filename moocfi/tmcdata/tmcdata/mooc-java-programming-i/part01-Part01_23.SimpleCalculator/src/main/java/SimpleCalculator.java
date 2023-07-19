@@ -11,7 +11,7 @@ public class SimpleCalculator {
         System.out.println("Give the second number: ");
         int b=Integer.valueOf(scanner.nextLine());
         
-        double d=a/b;
+        double d=a/(b*1.0);
         System.out.println(a+" + "+b+" = "+(a+b));
         System.out.println(a+" - "+b+" = "+(a-b));
         System.out.println(a+" * "+b+" = "+(a*b));
