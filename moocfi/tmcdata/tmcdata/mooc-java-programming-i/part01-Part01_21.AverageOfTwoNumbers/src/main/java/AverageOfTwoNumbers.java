@@ -10,7 +10,7 @@ public class AverageOfTwoNumbers {
         int a=Integer.valueOf(scanner.nextLine());
         System.out.println("Give the second number:");
         int b=Integer.valueOf(scanner.nextLine());
-        double c=(a+b)/2.0;
+        double c=(a+b)/2.0;//divisor needs to be in float to get the correct ans 
         System.out.println("The average is "+c);
 
         
