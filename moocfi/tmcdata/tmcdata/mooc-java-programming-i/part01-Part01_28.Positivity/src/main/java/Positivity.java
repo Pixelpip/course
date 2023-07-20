@@ -7,5 +7,6 @@ public class Positivity {
         Scanner scan = new Scanner(System.in);
 
         // Write your program here
+        
     }
 }
