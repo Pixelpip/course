@@ -12,9 +12,7 @@ public class Positivity {
         int a=Integer.valueOf(scan.nextLine());
         if(a>=1){
             System.out.println("The number is positive.");
-
-        }
-        else{
+        }else{
             System.out.println("The number is not positive.");
 
         }
