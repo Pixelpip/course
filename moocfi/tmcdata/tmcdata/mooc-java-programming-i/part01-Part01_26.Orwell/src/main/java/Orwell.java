@@ -8,8 +8,8 @@ public class Orwell {
 
         System.out.println("Give a number: ");
         int a=Integer.valueOf(scan.nextLine());
-        if(a==1984)
-        {
+        
+        if(a==1984){
             System.out.println("Orwell");
         }
     }
