@@ -6,24 +6,25 @@ public class GiftTax {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
         System.out.println("Value of the gift?");
-        int a=Integer.valueOf(scan.nextLine());
-        if(a<5000){
+        int giftVal = Integer.valueOf(scan.nextLine());
+        if (giftVal < 5000) {
             System.out.println("No tax!");
-        }else if(a>=5000&&a<=25000){
-            System.out.println("Tax:"+100);
-        }else if(a>=25000&&a<=55000){
-            System.out.println("Tax:"+1700);
-        }else if(a>=55000&&a<=200000){
-            System.out.println("Tax:"+4700);
-        }else if(a>=200000&&a<=1000000){
-            System.out.println("Tax:"+22100);
-        }else if(a<=1000000){
-            System.out.println("Tax:"+142100);
-        }else {
-            double giftTax = (142100 + (a - 1000000) * 0.17);
+        } else if (giftVal >= 5000 && giftVal <= 25000) {
+            double giftTax = (100 + (giftVal - 5000) * 0.08);
+            System.out.println("Tax: " + giftTax);
+        } else if (giftVal >= 25000 && giftVal <= 55000) {
+            double giftTax = (1700 + (giftVal - 25000) * 0.1);
+            System.out.println("Tax: " + giftTax);
+        } else if (giftVal >= 55000 && giftVal <= 200000) {
+            double giftTax = (4700 + (giftVal - 55000) * 0.12);
+            System.out.println("Tax: " + giftTax);
+        } else if (giftVal >= 200000 && giftVal <= 1000000) {
+            double giftTax = (22100 + (giftVal - 200000) * 0.15);
+            System.out.println("Tax: " + giftTax);
+        } else {
+            double giftTax = (142100 + (giftVal - 1000000) * 0.17);
             System.out.println("Tax: " + giftTax);
         }
-
 
     }
 }
