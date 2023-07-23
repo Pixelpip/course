@@ -9,7 +9,7 @@ public class CarryOn {
             System.out.println("Shall we carry on?");
             String s=scanner.nextLine();
             
-            if(s=="no"){
+            if(s.equals("no")){
                 break;
 
             }
