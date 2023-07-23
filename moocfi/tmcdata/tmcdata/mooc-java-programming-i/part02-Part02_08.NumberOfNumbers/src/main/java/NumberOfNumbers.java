@@ -7,7 +7,7 @@ public class NumberOfNumbers {
         int i=0;
         System.out.println("Give a number:");
         while(true){
-          
+            System.out.println("Give a number:");
             int a=Integer.valueOf(scanner.nextLine());
             if(a==0){
                 break;
