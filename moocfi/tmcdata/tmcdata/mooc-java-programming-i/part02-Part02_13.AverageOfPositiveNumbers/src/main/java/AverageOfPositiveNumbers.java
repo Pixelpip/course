@@ -10,7 +10,7 @@ public class AverageOfPositiveNumbers {
             while(true){
                 System.out.println("Give a number:");
                 int a=Integer.valueOf(scanner.nextLine());
-                if(a!=0){
+                if(a>=0){
                     if(a>0){
                         i=i+a;
                         n++; 
@@ -18,9 +18,9 @@ public class AverageOfPositiveNumbers {
                       
                     }
                     continue;
-                }else if(n==0&&a==0){
+                }else if(n==0&&a<=0){
                     System.out.println("Cannot calulate the average");
-                    break;
+                    
                 }else if(a==0){
                     break;
                 }
