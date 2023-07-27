@@ -26,7 +26,7 @@ public class RepeatingBreakingAndRemembering {
             i++;
         }
         System.out.println("Sum:"+r);
-        System.out.println("Numbers:"+i);
+        System.out.println("Numbers: "+i);
 
     }
 }
