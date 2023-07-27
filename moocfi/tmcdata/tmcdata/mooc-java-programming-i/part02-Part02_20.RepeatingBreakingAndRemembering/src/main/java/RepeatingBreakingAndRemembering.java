@@ -16,6 +16,8 @@ public class RepeatingBreakingAndRemembering {
         System.out.println("Give numbers:");
         int r=0;
         int i=0;
+        int e=0;
+        int o=0;
         while(true){
             int a=Integer.valueOf(scanner.nextLine());
             if(a==-1){
@@ -24,9 +26,17 @@ public class RepeatingBreakingAndRemembering {
             }
             r=r+a;
             i++;
+            if(a%2==0){
+                e++;
+            }else{
+                o++;
+            }
         }
         System.out.println("Sum:"+r);
         System.out.println("Numbers: "+i);
+        System.out.println("Average:"+(r*1.0/i*1.0));
+        System.out.println("Even:"+e);
+        System.out.println("Odd:"+o);
 
     }
 }
