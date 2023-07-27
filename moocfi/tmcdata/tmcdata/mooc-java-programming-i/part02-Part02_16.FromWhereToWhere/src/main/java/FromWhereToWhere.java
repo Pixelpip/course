@@ -12,16 +12,12 @@ public class FromWhereToWhere {
         //}
         System.out.println("Where from?");
         int b=Integer.valueOf(scanner.nextLine());
-        if(b>a)
-        {
+        if(b>a){
             System.out.println("");
-        }
-        else
-        {
-           for(int i=b;i<=a;i++)
-           {
-            System.out.println(i);
-           }
+        } else{
+            for(int i=b;i<=a;i++){
+                System.out.println(i);
+            }
         }
     }
 }
