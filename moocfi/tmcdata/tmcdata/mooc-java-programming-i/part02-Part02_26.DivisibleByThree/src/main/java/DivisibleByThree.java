@@ -10,25 +10,17 @@ public class DivisibleByThree {
         divisibleByThreeInRange(a,b);
     }
     public static void divisibleByThreeInRange(int b, int e){
-       if(b%3==0){
-        while(b<=e){
-            System.out.println(b);
-            b=b+3;
-        }
-        }
-        if(b%3!=0){
-            int i=0;
-            while(i<=e){
-                if((b+i)%3==0){
-                    b=b+i;
+        for(int i=b;b<=e;b++){
+            if(b%3==0){
+                while(b<=e){
                     System.out.println(b);
                     b=b+3;
-
-                }else{
-                    continue;
                 }
             }
-        }  
+
+        }
+        
+        
            
             
         
