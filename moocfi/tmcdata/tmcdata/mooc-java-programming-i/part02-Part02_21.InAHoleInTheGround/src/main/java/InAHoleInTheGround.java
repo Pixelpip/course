@@ -5,6 +5,6 @@ public class InAHoleInTheGround {
     }
     
     public static void printText() {
-        // Write some code in here
+        
     }
 }
