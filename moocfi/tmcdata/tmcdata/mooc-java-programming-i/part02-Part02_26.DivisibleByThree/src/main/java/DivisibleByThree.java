@@ -16,7 +16,7 @@ public class DivisibleByThree {
             b=b+3;
         }
         }
-        else{
+        if(b%3!=0){
             int i=0;
             while(i<=e){
                 if((b+i)%3==0){
@@ -24,9 +24,14 @@ public class DivisibleByThree {
                     System.out.println(b);
                     b=b+3;
 
+                }else{
+                    continue;
                 }
             }
-        }
+        }  
+           
+            
+        
 
         
        
