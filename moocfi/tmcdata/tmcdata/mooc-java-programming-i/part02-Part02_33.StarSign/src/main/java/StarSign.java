@@ -21,7 +21,7 @@ public class StarSign {
     public static void printStars(int number) {
         // first part of the exercise
         for(int i=0;i<number;i++){
-            System.out.println("*");
+            System.out.print("*");
         }
     }
 
@@ -33,6 +33,7 @@ public class StarSign {
                 
 
             }
+            System.out.println("\n");
             
         }
     }
@@ -44,6 +45,7 @@ public class StarSign {
                 printStars(j);
                 
             }
+            System.out.println("\n");
         }
 
     }
@@ -55,6 +57,7 @@ public class StarSign {
                 printStars(j);
                 
             }
+            System.out.println("\n");
         }
     }
 }
