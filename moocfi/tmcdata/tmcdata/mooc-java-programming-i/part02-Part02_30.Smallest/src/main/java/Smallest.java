@@ -7,9 +7,7 @@ public class Smallest {
         // there must be a return in the end of the method
         if(number1<number2){
             return number1;
-        
-        }
-        else{
+        }else{
             return number2;
         }
     }
