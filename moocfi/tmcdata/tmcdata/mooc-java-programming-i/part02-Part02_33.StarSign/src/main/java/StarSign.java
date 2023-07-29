@@ -31,10 +31,9 @@ public class StarSign {
 
     public static void printSquare(int size) {
         // second part of the exercise
-        
-            for(int i=0;i<size;i++){
-                printStars(size);
-            }
+        for(int i=0;i<size;i++){
+            printStars(size);
+        }
         
         
     }
