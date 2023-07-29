@@ -3,14 +3,25 @@ public class AdvancedAstrology {
 
     public static void printStars(int number) {
         // part 1 of the exercise
+        int c=0;
+        while(c<number){
+            System.out.print("*");
+            c++;
+        }
     }
 
     public static void printSpaces(int number) {
         // part 1 of the exercise
+        int c=0;
+        while(c<number){
+            System.out.print(" ");
+            c++;
+        }
     }
 
     public static void printTriangle(int size) {
         // part 2 of the exercise
+        
     }
 
     public static void christmasTree(int height) {
