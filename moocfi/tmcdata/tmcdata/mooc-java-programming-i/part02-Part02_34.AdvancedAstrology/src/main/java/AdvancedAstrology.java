@@ -12,9 +12,10 @@ public class AdvancedAstrology {
 
     public static void printSpaces(int number){
         // part 1 of the exercise
-        for(int i=0;i<number;i++){
+        int i=number;
+        while(i>0){
             System.out.print(" ");
-            
+            i--;
         }
     }
 
@@ -22,7 +23,7 @@ public class AdvancedAstrology {
         // part 2 of the exercise
         int z=1;
         for(int i=size;i>=1;i--){
-            printSpaces(i);
+            printSpaces(i-1);
             printStars(z);
             z++;
         }
@@ -30,6 +31,7 @@ public class AdvancedAstrology {
 
     public static void christmasTree(int height) {
         // part 3 of the exercise
+        
     }
 
     public static void main(String[] args) {
