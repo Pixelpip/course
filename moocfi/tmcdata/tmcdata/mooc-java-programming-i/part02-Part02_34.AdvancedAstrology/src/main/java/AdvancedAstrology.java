@@ -6,7 +6,6 @@ public class AdvancedAstrology {
         for(int i=0;i<number;i++){
             System.out.print("*");
         }
-        System.out.println("");
         
     }
 
@@ -26,11 +25,27 @@ public class AdvancedAstrology {
             printSpaces(i-1);
             printStars(z);
             z++;
+            System.out.println("");
         }
     }
 
     public static void christmasTree(int height) {
         // part 3 of the exercise
+       int z=1;
+       int b=2;
+        for(int i=height;i>=1;i--){
+            printSpaces(i-1);
+            printStars(z);
+            printStars(b);
+            System.out.println("");
+            z++;
+            b++;
+        }
+        for(int i=0;i<2;i++){
+            printSpaces((height/2)+1);
+            printStars(3);
+            System.out.println("");
+        }
         
     }
 
