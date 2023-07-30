@@ -26,6 +26,8 @@ public class AdvancedAstrology {
         // part 2 of the exercise
         
         
+        
+        
     }
 
     public static void christmasTree(int height) {
