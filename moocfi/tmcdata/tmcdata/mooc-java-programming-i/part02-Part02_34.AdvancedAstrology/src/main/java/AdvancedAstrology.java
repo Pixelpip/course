@@ -3,22 +3,19 @@ public class AdvancedAstrology {
 
     public static void printStars(int number) {
         // part 1 of the exercise
-        
-        while(0<number){
+        for(int i=0;i<number;i++){
             System.out.print("*");
-            number--;
         }
+        System.out.println("");
+        
     }
 
-    public static void printSpaces(int number) {
+    public static void printSpaces(int number){
         // part 1 of the exercise
-        
-            for(int i=number;i>=1;i--){
-                System.out.print(" ");
-            }
+        for(int i=0;i<number;i++){
+            System.out.print(" ");
             
-            
-        
+        }
     }
 
     public static void printTriangle(int size) {
@@ -28,13 +25,7 @@ public class AdvancedAstrology {
             printSpaces(i);
             printStars(z);
             z++;
-            System.out.println("\n");
         }
-            
-            
-        
-        
-        
     }
 
     public static void christmasTree(int height) {
