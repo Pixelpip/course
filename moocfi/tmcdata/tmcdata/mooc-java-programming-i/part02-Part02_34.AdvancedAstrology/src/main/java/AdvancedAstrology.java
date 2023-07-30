@@ -3,28 +3,35 @@ public class AdvancedAstrology {
 
     public static void printStars(int number) {
         // part 1 of the exercise
-        int c=0;
-        while(c<number){
+        
+        while(0<number){
             System.out.print("*");
-            c++;
+            number--;
         }
     }
 
     public static void printSpaces(int number) {
         // part 1 of the exercise
-        int c=0;
-        while(c<number){
-            for(int i=c;i>0;i--){
+        
+            for(int i=number;i>=1;i--){
                 System.out.print(" ");
             }
             
-            c++;
-        }
+            
+        
     }
 
     public static void printTriangle(int size) {
         // part 2 of the exercise
-        
+        int z=1;
+        for(int i=size;i>=1;i--){
+            printSpaces(i);
+            printStars(z);
+            z++;
+            System.out.println("\n");
+        }
+            
+            
         
         
         
