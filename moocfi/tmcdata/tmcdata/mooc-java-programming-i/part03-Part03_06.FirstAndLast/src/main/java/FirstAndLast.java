@@ -8,6 +8,7 @@ public class FirstAndLast {
         Scanner scanner = new Scanner(System.in);
 
         ArrayList<String> list = new ArrayList<>();
+        int i=-1;
         while (true) {
             String input = scanner.nextLine();
             if (input.equals("")) {
@@ -15,7 +16,10 @@ public class FirstAndLast {
             }
 
             list.add(input);
+            i++;
         }
+        System.out.println(list.get(0));
+        System.out.println(list.get(i));
 
     }
 }
