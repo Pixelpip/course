@@ -12,5 +12,6 @@ public class AverageOfAList {
         // Then it computes the average of the numbers on the list
         // and prints it.
         
+        
     }
 }
