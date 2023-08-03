@@ -22,11 +22,10 @@ public class OnTheList {
         for(String i:list){
             if(s.equals(i)){
                 System.out.println(i+" was found!");
-                break;
-            }if(i.equals(list.get(j))){
-                System.out.println(i+" was not found!");
+                System.exit(0);
             }
         }
+        System.out.println(s+" was not found!");
 
     }
 }
