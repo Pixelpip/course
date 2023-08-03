@@ -23,7 +23,7 @@ public class OnTheList {
             if(s.equals(i)){
                 System.out.println(i+" was found!");
                 break;
-            }else if(i.equals(list.get(j))){
+            }if(i.equals(list.get(j))){
                 System.out.println(i+" was not found!");
             }
         }
