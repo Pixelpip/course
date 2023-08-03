@@ -16,16 +16,16 @@ public class OnTheList {
 
             list.add(input);
         }
-        int j=list.size()-1;
         System.out.println("Search for?");
         String s=scanner.nextLine();
         for(String i:list){
             if(s.equals(i)){
                 System.out.println(i+" was found!");
-                System.exit(0);
+                break;
+            }
+            if(i==list.get(list.size()-1)){
+                System.out.println(s+" was not found!");
             }
         }
-        System.out.println(s+" was not found!");
-
     }
 }
