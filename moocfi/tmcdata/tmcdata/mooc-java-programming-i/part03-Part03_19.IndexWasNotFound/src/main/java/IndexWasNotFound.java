@@ -22,8 +22,9 @@ public class IndexWasNotFound {
         // Implement the search functionality here
         for(int i=0;i<8;i++){
             if(array[i]==searching&&i<=7){
-                System.out.println(searching+"is at index "+i+".");
-            }else{
+                System.out.println(searching+" is at index "+i+".");
+                break;
+            }else if(i==7&&array[i]!=searching){
                 System.out.println(searching+" was not found.");
             }
         }
