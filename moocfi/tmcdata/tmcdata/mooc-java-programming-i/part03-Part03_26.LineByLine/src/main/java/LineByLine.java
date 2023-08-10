@@ -11,7 +11,14 @@ public class LineByLine {
         }else{
             String[] p=s.split(" ");
             for(int i=0;i<p.length;i++){
-                System.out.println(p[i]);
+                for(int j=0;j<p.length;j++)
+                    System.out.println(p[j]);
+                s=scanner.nextLine();
+                p=s.split(" ");
+                if(s.equals("")){
+                    System.out.print("halted");
+                    break;
+                }
             }
         }
 
