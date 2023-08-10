@@ -14,11 +14,11 @@ public class LineByLine {
                 for(int j=0;j<p.length;j++)
                     System.out.println(p[j]);
                 s=scanner.nextLine();
-                p=s.split(" ");
                 if(s.equals("")){
                     System.out.print("halted");
                     break;
                 }
+                p=s.split(" ");
             }
         }
 
