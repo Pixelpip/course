@@ -7,13 +7,14 @@ public class AVClub {
         Scanner scanner = new Scanner(System.in);
         String s=scanner.nextLine();
         String[] p=s.split(" ");
-        for(int i=0;i<p.length+1;i++){
-            for(int j=0;j<p.length;j++){
-                if(p[j].contains("av"))
+        for(int i=0;i<p.length;i++){
+            for(int j=0;j<=p.length;j++){
+                if(p[j].contains("av")){
                     System.out.println(p[j]);
+                }
+                s=scanner.nextLine();
+                p=s.split(" ");
             }
-            s=scanner.nextLine();
-            p=s.split(" ");
         }
 
     }
