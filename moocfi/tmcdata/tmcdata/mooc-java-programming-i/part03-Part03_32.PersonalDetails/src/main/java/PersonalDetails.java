@@ -6,27 +6,22 @@ public class PersonalDetails {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-         String s=scanner.nextLine();
-            if(s.equals("")){
-                return;
-            }
-            String[] n=s.split(",");
-            String o=n[0];
-            double age=Integer.valueOf(n[1]);
-            int i=1;
+        String l="";
+        int z=0;
+        double birth=0;
         while(true){
-            String p=scanner.nextLine();
-            n=p.split(",");
-            if(p.equals("")){
+            String s=scanner.nextLine();
+            if(s.equals("")){
                 break;
             }
-            if(n.length>o.length()){
-                o=n[0];
+            String[] p=s.split(",");
+            if(p[0].length()>l.length()){
+                l=p[0];
             }
-            age=age+Integer.valueOf(n[1]);
-            i++;
+            birth=birth+Integer.valueOf(p[1]);
+            z++;
         }
-        System.out.println("Longest name:"+o);
-        System.out.println("Average of birth years:"+(age/i));
+        System.out.println("Longest name:"+l);
+        System.out.println("Average of birth years:"+(birth/z));
     }
 }
