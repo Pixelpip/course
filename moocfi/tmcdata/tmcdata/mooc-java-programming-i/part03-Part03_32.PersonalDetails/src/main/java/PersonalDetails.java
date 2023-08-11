@@ -6,29 +6,27 @@ public class PersonalDetails {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        double age=0;
-        String[] name;
-        String[] p;
-        String l="";
-        int i=0;
+         String s=scanner.nextLine();
+            if(s.equals("")){
+                return;
+            }
+            String[] n=s.split(",");
+            String o=n[0];
+            double age=Integer.valueOf(n[1]);
+            int i=1;
         while(true){
-            String s=scanner.nextLine();
-            String n=scanner.nextLine();
-            if(s.equals("")||n.equals("")){
+            String p=scanner.nextLine();
+            n=p.split(",");
+            if(p.equals("")){
                 break;
             }
-            p=s.split(",");
-            name=n.split(",");
-            age=age+Integer.valueOf(p[1])+Integer.valueOf(name[1]);
-            if(name[0])>p[0]){
-                l=name[0];
-            }else{
-                l=p[0];
+            if(n.length>o.length()){
+                o=n[0];
             }
-            i+=2;
+            age=age+Integer.valueOf(n[1]);
+            i++;
         }
-        System.out.println("Name of oldest is:"+l);
+        System.out.println("Longest name:"+o);
         System.out.println("Average of birth years:"+(age/i));
-
     }
 }
