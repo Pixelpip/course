@@ -6,21 +6,21 @@ public class LineByLine {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String s=scanner.nextLine();
-        if(s.equals(" ")){
-            System.out.println("halted");
+        String[] p=s.split(" ");
+        if(p.equals(" ")){
         }else{
-            String[] p=s.split(" ");
-            for(int i=0;i<p.length;i++){
+            for(int i=-1;i<p.length;i++){
                 for(int j=0;j<p.length;j++)
                     System.out.println(p[j]);
-                s=scanner.nextLine();
-                if(s.equals("")){
-                    System.out.print("halted");
-                    break;
-                }
-                p=s.split(" ");
-            }
-        }
+                if(s.equals(" ")){
 
+                }else{
+                    s=scanner.nextLine();
+                    p=s.split(" ");
+                }
+            }
+            
+        }
+        
     }
 }
