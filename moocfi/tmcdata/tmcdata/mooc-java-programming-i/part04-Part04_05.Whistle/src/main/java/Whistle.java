@@ -1,7 +1,8 @@
 public class Whistle {
-    pirvate String sound;
-    public Whistle(String whistleSound){
-        this.sound=whistleSound;
+    private String sound;
+    public String Whistle(String whistleS){
+        this.sound=whistleS;
+        return sound;
     }
     public void sound(){
         System.out.println(Whistle(sound));
