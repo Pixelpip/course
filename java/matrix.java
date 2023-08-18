@@ -5,5 +5,6 @@ public class matrix{
         System.out.println(month[0]);   //only element assigned a value in the array 
         System.out.println(month[1]);  //all elements of array are zero at start 
         
+        
     }
 }
