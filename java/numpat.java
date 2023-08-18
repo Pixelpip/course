@@ -6,8 +6,8 @@ public class numpat {
         t[2]=new int[3];
         t[3]=new int[4];
         int k=0;
-        for(int i=0;i<4;i++){  //less than 4 to prevent going out of bound 
-            for(int j=0;j<=i;j++){   //j<=i to prevent outofbounds error  
+        for(int i=0;i<4;i++){  //The outer loop for(int i=0;i<4;i++) runs for i values from 0 to 3 (a total of 4 iterations). This controls the rows of the two-dimensional array t[][]
+            for(int j=0;j<=i;j++){   //The inner loop for(int j=0;j<=i;j++) runs for j values from 0 to the current value of i
                 t[i][j]=k;
                 k++;
             }
