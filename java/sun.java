@@ -4,3 +4,4 @@ public class sun {
         System.out.println(m[1].length); //print the length of 2nd row i.e the number of columns in 2nd row
     }
 }
+
