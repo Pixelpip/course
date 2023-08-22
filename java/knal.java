@@ -15,7 +15,11 @@ public class knal{
         System.out.println("~x&y |x&~y:"+s);
         System.out.println("~x:"+Integer.toBinaryString(~x));
         System.out.println(n.length());
-        
+        int v=0xFFFFFFF;
+        System.out.println(v); 
+        String b=Integer.toBinaryString(v);
+        System.out.println(b);     
+        System.out.println(b.length());  
         
         
         
