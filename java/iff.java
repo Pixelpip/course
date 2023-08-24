@@ -4,7 +4,7 @@ public class iff {
         int k=i<0?-i:i;
         System.out.println(k);
         i=10;
-        k=i<0?-i:-i;
+        k=i<0?i:--i;
         System.out.println(k);
 
     }
