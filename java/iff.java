@@ -3,5 +3,6 @@ public class iff {
         int i=0;
         if(i<-1 & i++ < 10)
         System.out.println(i);
+        
     }
 }
