@@ -9,7 +9,13 @@ public class swi {
             System.out.println("hello");
             break;
         }
-        
-
+        //for-each loop
+        int num[]={1,2,3,4,5,6,7,8};
+        int sum=0;
+        for(int i:num){
+            sum+=i;
+            System.out.println(sum);
+        }
+        System.out.println("final:"+sum);
     }
 }
