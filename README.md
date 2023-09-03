@@ -1,1 +1,1 @@
-code tracker for all my courses 
+Course code tracker 
