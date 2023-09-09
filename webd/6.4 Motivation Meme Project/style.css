@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(168, 71, 71);
+    background-color:black;
     font-family: 'Libre Baskerville', serif;
 }
 img{
@@ -9,6 +9,7 @@ div{
     align-self: center;
     margin: 110px;
 }
-p{
-    text-color:white
+h1{
+    color:yellow;
+    ;
 }
