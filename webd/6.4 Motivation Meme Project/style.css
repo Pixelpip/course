@@ -4,15 +4,14 @@ body{
 }
 img{
     border: 1px solid white;
-    margin:100px;
+    margin-top: 150px;
+
+    
 }
 div{
-    align-self: center;
-    margin-left: 100px;
-    margin-bottom: px;
-    border:3px solid green
-}
-h1{
+    text-align: center;
     color:yellow;
-    ;
+}
+p{
+    color:aqua
 }
