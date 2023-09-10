@@ -1,6 +1,4 @@
 import os 
-import sys
-import pathlib
 import zipfile
 hlist=os.path.expanduser("~")
 flist=os.listdir(os.path.join(hlist,"Downloads"))
