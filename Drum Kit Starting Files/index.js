@@ -1,4 +1,4 @@
-document.querySelector("button").addEventListener(click,handclick())
+document.querySelector("button").addEventListener("click",handclick())
 
 function handclick(){
     alert("clicked");
