@@ -42,3 +42,7 @@ for (var i=0;i<n;i++){
 })
 
 }
+document.addEventListener("keydown",function(event){
+    alert("key was pressed");
+    console.log(event.key);
+})
