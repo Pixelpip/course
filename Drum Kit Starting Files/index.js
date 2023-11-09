@@ -1,4 +1,4 @@
-var n=document.querySelectorAll(".durm").length;
+var n=document.querySelectorAll(".drum").length;
 for (var i=0;i<n;i++){
     document.querySelectorAll(".drum")[i].addEventListener("click",
     function (){
@@ -22,19 +22,16 @@ for (var i=0;i<n;i++){
                 t4.play();
                 break;
             case "j":
-                var kick=new Audio("sounds/kick.mp3");
+                var kick=new Audio("sounds/kick-bass.mp3");
                 kick.play();
                 break;
-            case "j":
+            case "k":
                 var snare=new Audio("sounds/snare.mp3");
                 snare.play();
                 break;
-            case "j":
-                var crash=new Audio("sounds/crash.mp3");
-                crash.play();
-                break;
+         
             case "l":
-                var bass=new Audio("sounds/bass.mp3");
+                var bass=new Audio("sounds/crash.mp3");
                 bass.play();
                 break;
             default:
