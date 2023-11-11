@@ -12,7 +12,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/profile/:username', (req, res) => {
-    res.send('Hello ${username}!')
+    res.send(`Hello ${req.params.username}!`)
   })
 
 app.listen(port, () => {
