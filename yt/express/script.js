@@ -3,7 +3,7 @@ const app = express()
 const port = 4000
 
 app.use( function(req, res, next) {
-    
+    next();
 
 });
 
