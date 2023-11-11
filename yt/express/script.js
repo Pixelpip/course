@@ -3,7 +3,9 @@ const app = express()
 const port = 4000
 
 app.use( function(req, res, next) {
+    console.log("middleware working");
     next();
+
 
 });
 
