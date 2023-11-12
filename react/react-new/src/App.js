@@ -1,19 +1,11 @@
-import React, { useState, useEffect } from 'react';
-import './App.css';
+import React from 'react';
 
-
-const App=()=> {
-  const [counter, setcounter] = useState(0);
-  useEffect(()=>{
-    setcounter(100);
-  },[]);
-  return (
-    <div className="App">
-      <button onClick={()=> setcounter((prevCount=> prevCount-1))}>-</button>
-     <h3>{counter}</h3>
-     <button onClick={()=> setcounter((prevCount=> prevCount+1))}>+</button>
-    </div>
-  );
+const App=()=>{
+    return(
+        
+        <h1>Default</h1>
+       
+    );
 }
 
-export default App;
+export default App
