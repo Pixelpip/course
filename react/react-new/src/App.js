@@ -1,23 +1,21 @@
-import logo from './logo.svg';
+
 import './App.css';
 
-function App() {
+const P1 = () => {
+  return(
+  < >
+  <h1>Hello jhon</h1>
+  <h2>age:30</h2>
+  </>
+)};
+
+
+const App=()=> {
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {2+2}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <P1 />
+     
     </div>
   );
 }
